@@ -1,0 +1,61 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.calendar-cell {
+  width: 100%;
+  height: 280px;
+  .body-header {
+    overflow: hidden;
+    span:first-child {
+      float: left;
+      margin-top: 10px;
+    }
+    span:last-child {
+      float: right;
+      font-size: 25px;
+    }
+  }
+  .title {
+    height: 70px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+    text-align: center;
+  }
+  .body-list ul {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    .selectCellstyle {
+      color: aqua;
+    }
+  }
+  .body-list ul li {
+    list-style: none;
+    display: inline-block;
+    width: 14.28%;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .selectCellstyle {
+    background-color: '#C8C8C8';
+    cursor: 'pointer';
+  }
+  .selectCellCommon {
+    cursor: 'pointer';
+  }
+  .weekStyle {
+    color: #E1090A;
+  }
+  .calendarHeader li {
+    font-size: 10px;
+  }
+  .calendarHeader {
+    border-bottom: .5px solid #84C3E4;
+    border-top: .5px solid #84C3E4;
+  }
+}
